@@ -2,6 +2,5 @@ h1, h2, h3 {
 	font-family: serif;
 }
 
-#bgimage {
-	background: url(00.2jpg);
-} 
+body {
+	background: url(002.jpg) center;
