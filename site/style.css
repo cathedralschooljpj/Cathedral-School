@@ -1,6 +1,11 @@
-h1, h2, h3 {
-	font-family: serif;
-}
+
 
 body {
-	background: url(002.jpg) center;}
+	background: url(002.jpg) center; margin: 15px;}
+
+.float {
+	float: left;
+}
+.row {margin: 15px;}
+
+.row > div { border:2px solid black ; text-align:center; background-color: white;}
