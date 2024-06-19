@@ -17,8 +17,10 @@
   		a:hover, a:visited {color: maroon; background: white;}
 		#box {border: 2px solid black; width: 200px; background: lightgrey;}
  		li {list-style-type: square;}
-		.boxes { width: 300px; border: 2px solid black; margin: 20px;}
+		.boxes { width: 300px; border: 2px solid black; margin: 10px; float: left;}
 		#clear { clear: both;}
+		#bgimage {background-image:url(004.jpg); background-size: 3000px;}
+		#footerimage {background-image: url(003.jpg); background-size: 500px}
 	</style>
 </head>
 <body>
@@ -92,9 +94,9 @@
 	<br><br><br><br>
 	<img src="1.jpg" alt="school building" width="400" height="300">
 	<br>
-	
-	<footer>
-		<div style="width: 300px; height: 300px;  margin: 3px;">	
+	</div>
+	<footer id="footerimage">
+		<div style="width: 800px; height: 300px;  margin: 3px;">	
 			<div class="boxes">
 				<h3>Important Links:</h3>
 				<ul>
@@ -109,18 +111,18 @@
 					<ul>
 						<li><a href="https://maps.app.goo.gl/58dru4obVVCJkYYx5" target="_blank">Address: Tanda Chowk, Jalalpur Jattan</a></li>
 						<li>Phone no.+92-53-3592144</li>
-						<li><a href="https://maps.app.goo.gl/58dru4obVVCJkYYx5" target="_blank">Pin Location</a></li>
 					</ul>
 				</section>
 			</div>
 		</div>
-	</footer>
+	
 	<br><br>
 	<div id="clear">
 		<a href="#top">Back to top</a>
-	</div>									
+		</div>
+		</footer>									
 	<script src="jquery-3.7.1.min.js"></script>
 	<script src="bootstrap.min.js"></script>
-	</div>
+	
 </body>
 </html>
